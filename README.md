@@ -9,7 +9,7 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 |-----------|-----------|-----------------------------|---------------------------|
 |Sam Bian   |TantaiYanhen|`JokeQueryService`          | `JokeController`          |
 |Victor Garcia|el-beetor| `LocationQueryService`      | `LocationController`      |
-|           |           | `PublicHolidayQueryService` | `PublicHolidayController` |
+|Justin Hao | haojustin | `PublicHolidayQueryService` | `PublicHolidayController` |
 |Chris Woolson| chriswoolson| `TidesQueryService`         | `TidesController`         |
 |Luis Bravo |bravo-luis | `UniversityQueryService`    | `UniversityController`    |
 |Winston Zuo|   winzuo  | `ZipCodeQueryService`       | `ZipCodeController`       |
