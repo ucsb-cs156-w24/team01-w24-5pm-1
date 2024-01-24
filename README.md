@@ -1,4 +1,4 @@
-# STARTER-team01
+# w24-5pm-1-team01
 
 Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 
@@ -11,7 +11,7 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 |           |           | `PublicHolidayQueryService` | `PublicHolidayController` |
 |           |           | `TidesQueryService`         | `TidesController`         |
 |           |           | `UniversityQueryService`    | `UniversityController`    |
-|           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
+|Winston Zuo|   winzuo  | `ZipCodeQueryService`       | `ZipCodeController`       |
 ```
 
 
