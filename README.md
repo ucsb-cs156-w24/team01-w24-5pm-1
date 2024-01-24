@@ -7,6 +7,7 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 ```
 |   Name    | GitHub Id |  Service                    | Controller                |
 |-----------|-----------|-----------------------------|---------------------------|
+|Sam Bian   |TantaiYanhen|`JokeQueryService`          | `JokeController`          |
 |Victor Garcia|el-beetor| `LocationQueryService`      | `LocationController`      |
 |           |           | `PublicHolidayQueryService` | `PublicHolidayController` |
 |Chris Woolson| chriswoolson| `TidesQueryService`         | `TidesController`         |
