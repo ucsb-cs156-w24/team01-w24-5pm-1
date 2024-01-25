@@ -26,7 +26,7 @@ public class JokeController {
     ObjectMapper mapper = new ObjectMapper();
 
     @Autowired
-    JokeQueryService JokeQueryService;
+    JokeQueryService jokeQueryService;
 
     @Operation(summary="Get jokes for a given category and amount")
     @GetMapping("/get")
@@ -35,7 +35,7 @@ public class JokeController {
         @Parameter(name="amount", description="amount of jokes to get", example="1") @RequestParam String numJokes
     ) throws JsonProcessingException {
         log.info("getJoke: category={} numJokes={}", category, numJokes);
-        String result = JokeQueryService.getJSON(category, Integer.parseInt(numJokes));
+        String result = jokeQueryService.getJSON(category, numJokes);
         return ResponseEntity.ok().body(result);
     }
 }
