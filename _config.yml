@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-w24/team01-w24-5pm-1
 owner: ucsb-cs156-w24
 repo_name: team01-w24-5pm-1
-pull_requests: [{"author":{"id":"U_kgDOBp4StA","is_bot":false,"login":"winzuo","name":""},"headRefName":"Winston-ZipSrv","number":21,"title":"Add ZipCodeService and Test","url":"https://github.com/ucsb-cs156-w24/team01-w24-5pm-1/pull/21"},{"author":{"id":"U_kgDOB3BkNQ","is_bot":false,"login":"TantaiYanhen","name":"Sam Bian"},"headRefName":"Sam-Joke","number":19,"title":"Add Joke Service and Test","url":"https://github.com/ucsb-cs156-w24/team01-w24-5pm-1/pull/19"}]
+pull_requests: [{"author":{"id":"U_kgDOBp4StA","is_bot":false,"login":"winzuo","name":""},"headRefName":"Winston-ZipSrv","number":21,"title":"Add ZipCodeService and Test","url":"https://github.com/ucsb-cs156-w24/team01-w24-5pm-1/pull/21"}]
