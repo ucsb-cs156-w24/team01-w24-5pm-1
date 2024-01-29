@@ -20,7 +20,7 @@ public class PublicHolidayQueryServiceTests {
     @Autowired
     private PublicHolidayQueryService publicHolidayQueryService;
 
-    
+
     @Test
     public void test_getJSON() {
         String year = "2024";
