@@ -17,6 +17,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import lombok.extern.slf4j.Slf4j;
 
 @Tag(name="Tides info from NOAA")
 @Slf4j
@@ -31,9 +32,9 @@ public class TidesController {
     @Operation(summary = "Get tides for a certain station", description = "JSON return format documented here: https://api.tidesandcurrents.noaa.gov/api/prod/")
     @GetMapping("/get")
     public ResponseEntity<String> getTides(
-        @Parameter(name="beginDate", description="begin date", example="01-03") @RequestParam String beginDate,
-        @Parameter(name="endDate", description="end date", example="01-24") @RequestParam String endDate,
-        @Parameter(name="station", description="station id", example="cool") @RequestParam String station
+        @Parameter(name="beginDate", description="beginDate in format MM/dd/YYYY", example="01/01/2023") @RequestParam String beginDate,
+        @Parameter(name="endDate", description="end date in format MM/dd/YYYY", example="01/02/2023") @RequestParam String endDate,
+        @Parameter(name="station", description="station id", example="9410152") @RequestParam String station
     ) throws JsonProcessingException {
         log.info("getTides: begin_date={} end_date={} station={}", beginDate, endDate, station);
         String result = tidesQueryService.getJSON(beginDate, endDate, station);
