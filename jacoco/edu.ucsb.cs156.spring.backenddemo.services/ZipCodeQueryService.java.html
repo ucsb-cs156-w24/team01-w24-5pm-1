@@ -46,25 +46,4 @@ public class ZipCodeQueryService {
 <span class="fc" id="L46">        return re.getBody();</span>
     }
 }
-
-
-/*
- * public String getJSON(String distance, String minMag) throws HttpClientErrorException {
-        log.info(&quot;distance={}, minMag={}&quot;, distance, minMag);
-        HttpHeaders headers = new HttpHeaders();
-        headers.setAccept(List.of(MediaType.APPLICATION_JSON));
-        headers.setContentType(MediaType.APPLICATION_JSON);
-
-        HttpEntity&lt;String&gt; entity = new HttpEntity&lt;&gt;(headers);
-
-        String ucsbLat = &quot;34.4140&quot;; // hard coded params for Storke Tower
-        String ucsbLong = &quot;-119.8489&quot;;
-        Map&lt;String, String&gt; uriVariables = Map.of(&quot;minMag&quot;, minMag, &quot;distance&quot;, distance, &quot;latitude&quot;, ucsbLat,
-                &quot;longitude&quot;, ucsbLong);
-
-        ResponseEntity&lt;String&gt; re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class,
-                uriVariables);
-        return re.getBody();
-    }
- */
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
