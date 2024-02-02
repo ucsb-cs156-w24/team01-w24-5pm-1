@@ -2,8 +2,6 @@
 
 Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 
-* TODO: Update the following table, then delete this line that says "TODO".
-
 ```
 |   Name    | GitHub Id |  Service                    | Controller                 |
 |-----------|-----------|-----------------------------|----------------------------|
@@ -16,10 +14,6 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 ```
 
 Repo: https://github.com/ucsb-cs156-w24/team01-w24-5pm-1
-
-* TODO: Correct the links to app on Dokku below,
-  then delete this TODO.  Replace it with
-  a link to your running app on Dokku, e.g.
 
   Dokku:
  https://team01.dokku-05.cs.ucsb.edu
