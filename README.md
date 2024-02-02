@@ -5,14 +5,14 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 * TODO: Update the following table, then delete this line that says "TODO".
 
 ```
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------|
-|Sam Bian   |TantaiYanhen|`JokeQueryService`          | `JokeController`          |
-|Victor Garcia|el-beetor| `LocationQueryService`      | `LocationController`      |
-|Justin Hao | haojustin | `PublicHolidayQueryService` | `PublicHolidayController` |
-|Chris Woolson| chriswoolson| `TidesQueryService`         | `TidesController`         |
-|Luis Bravo |bravo-luis | `UniversityQueryService`    | `UniversityController`    |
-|Winston Zuo|   winzuo  | `ZipCodeQueryService`       | `ZipCodeController`       |
+|   Name    | GitHub Id |  Service                    | Controller                 |
+|-----------|-----------|-----------------------------|----------------------------|
+|Sam Bian     |TantaiYanhen|`JokeQueryService`         | `JokeController`          |
+|Victor Garcia|el-beetor   | `LocationQueryService`    | `LocationController`      |
+|Justin Hao   | haojustin  |`PublicHolidayQueryService`| `PublicHolidayController` |
+|Chris Woolson|chriswoolson| `TidesQueryService`       | `TidesController`         |
+|Luis Bravo   |bravo-luis  | `UniversityQueryService`  | `UniversityController`    |
+|Winston Zuo  |   winzuo   | `ZipCodeQueryService`     | `ZipCodeController`       |
 ```
 
 Repo: https://github.com/ucsb-cs156-w24/team01-w24-5pm-1
